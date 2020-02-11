@@ -10,10 +10,11 @@ function generatePassword() {
   var pass ='';
   var length;
 //Logic for Function
-  do{
+  
     length = parseInt(prompt("Choose a password length 8-128 characters"));
   }
   while(length < 8 || length > 128)
+    Alert = ("Make sure to keep password between 8-128 characters")
 
   if(select = confirm("Lower Case?") ){
     options.push(lower);
