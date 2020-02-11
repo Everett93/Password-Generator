@@ -7,7 +7,7 @@ function generatePassword() {
   var number = '0123456789';
   var special = '!#$%&()*@';
   var options = [];
-  var pass ='';
+  var password ='';
   var length;
 //Logic for Function
   
@@ -41,9 +41,9 @@ function generatePassword() {
     let x = Math.floor(Math.random()*options.length);
     let y = Math.floor(Math.random()*options[x].length);
 
-    pass = pass + options[x][y];
+    password = password + options[x][y];
   }
 
-  return pass;
+  return password;
 
 }
